@@ -187,3 +187,48 @@ Los cambios deben ser comprensibles y no incluir secretos, credenciales ni infor
 ## 8. Regla general
 
 > Si una regla puede mantenerse simple, no crear una capa adicional de proceso para ella.
+## 9. Permisos por área
+
+Orvental trabaja con responsabilidad por áreas, manteniendo colaboración y acceso compartido al conocimiento institucional.
+
+Los permisos representan **responsabilidad primaria**, no propiedad exclusiva.
+
+| Área                         | David       | Alejandra   |
+| ---------------------------- | ----------- | ----------- |
+| Estrategia                   | Edición     | Edición     |
+| Posicionamiento              | Edición     | Edición     |
+| ICP                          | Edición     | Edición     |
+| Ofertas                      | Edición     | Edición     |
+| Pricing                      | Edición     | Edición     |
+| Go-to-market                 | Edición     | Edición     |
+| Sales                        | Edición     | Edición     |
+| Research                     | Edición     | Edición     |
+| Decisions                    | Edición     | Edición     |
+| SOP                          | Edición     | Edición     |
+| Tecnología / infraestructura | Responsable | Consulta    |
+| SEO / GEO                    | Consulta    | Responsable |
+| Automatización               | Responsable | Consulta    |
+| CRM / operación comercial    | Edición     | Edición     |
+
+### Responsabilidad
+
+**David** mantiene la responsabilidad primaria sobre:
+
+* tecnología;
+* sistemas;
+* automatización;
+* infraestructura;
+* arquitectura técnica.
+
+**Alejandra** mantiene la responsabilidad primaria sobre:
+
+* SEO;
+* GEO;
+* metodología SEO/GEO;
+* auditorías;
+* oferta relacionada con SEO/GEO;
+* investigación comercial asociada a esa área.
+
+Las áreas compartidas se mantienen abiertas a contribución de ambos.
+
+Los cambios relevantes que afecten el trabajo de otra área deben ser comunicados y, cuando corresponda, revisados por la persona responsable de dicha área.
