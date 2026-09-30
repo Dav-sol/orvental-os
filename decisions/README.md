@@ -149,15 +149,15 @@ Ejemplo:
 
 ### Positivas
 
-- 
+-
 
 ### Negativas / trade-offs
 
-- 
+-
 
 ### Riesgos
 
-- 
+-
 
 ## Resultado
 
