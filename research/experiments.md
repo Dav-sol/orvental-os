@@ -1,95 +1,66 @@
 # Experimentos
 
-Este archivo registra experimentos utilizados para aprender sobre Orvental, sus clientes, mercado, procesos, ofertas y operaciones.
+Este archivo registra experimentos para aprender sobre Orvental, sus clientes, mercado, procesos y ofertas.
 
-Un experimento convierte una hipótesis en una prueba observable.
+> No buscamos demostrar que una idea es correcta; buscamos evidencia suficiente para decidir qué hacer después.
 
-## Principio
-
-> No buscamos demostrar que una idea es correcta; buscamos obtener evidencia suficiente para decidir qué hacer después.
-
-Ciclo:
-
-```text
-Hipótesis
-    ↓
-Experimento
-    ↓
-Acción
-    ↓
-Datos
-    ↓
-Resultado
-    ↓
-Aprendizaje
-    ↓
-Decisión
-```
+Ciclo: hipótesis → experimento → acción → datos → resultado → aprendizaje → decisión.
 
 ## Registro
 
 | ID | Fecha | Hipótesis | Acción | Métrica | Resultado | Aprendizaje | Decisión | Estado |
 |---|---|---|---|---|---|---|---|---|
 | EXP-001 | YYYY-MM-DD | ... | ... | ... | ... | ... | ... | Planned |
-| EXP-002 | 2026-10-13 | Un diagnóstico trazable y una intervención priorizada en Caiman SC permitirán evaluar la utilidad y repetibilidad del Growth Audit; no validan por sí solos la disposición de pago de clientes externos. | Preparar piloto; después discovery, diagnóstico, línea base e intervención autorizada. | Trazabilidad del diagnóstico, disponibilidad de línea base, métrica elegida antes de intervenir, horas/costos. | Pendiente | Pendiente | Pendiente | Planned |
+| EXP-002 | 2026-10-13 | Registrar conocimiento operativo previo y separarlo de inferencias permitirá formular un diagnóstico más riguroso y preguntas de validación concretas antes de intervenir en Caiman SC. | Documentar observaciones y recuerdos; mapear el recorrido comercial; buscar evidencia contraria; investigar preguntas externas; validar con el responsable cuando sea necesario. | Trazabilidad de afirmaciones, hipótesis con alternativas/refutadores, preguntas vinculadas a decisiones y horas invertidas. | Pendiente | Pendiente | Pendiente | Planned |
 
-## EXP-002 — Piloto interno Caiman SC: validar el método Growth Audit
+## EXP-002 — Caiman SC: aprender el método Growth Audit
 
-**Inicio:** 2026-10-13 (preparación documental; inicio operativo pendiente)  
-**Finalización:** Pendiente  
+**Inicio:** 2026-10-13 (preparación documental; análisis de escritorio pendiente)  
 **Responsable:** David Solano  
-**Área:** research | sales  
 **Estado:** Planned  
 **Alcance:** `research/pilots/caiman-sc/README.md`  
+**Registro de observaciones:** `research/pilots/caiman-sc/observations-log.md`  
 **Decisión:** `DEC-001`
 
 ### Hipótesis
 
-Un proceso documentado de investigación, diagnóstico, priorización, intervención y medición permitirá evaluar y mejorar el método Growth Audit en un negocio real. La disposición de pago debe validarse después con clientes externos.
-
-### Predicción
-
-Antes de intervenir se documentarán el recorrido comercial, fuentes y límites de evidencia, brechas prioritarias, métricas disponibles y una intervención con aprobación, responsable y criterios de evaluación. Después se registrarán resultados, incluidos los nulos o inconclusos.
+Documentar el conocimiento operativo previo con etiquetas de evidencia, explicaciones alternativas y preguntas abiertas mejorará el rigor del Growth Audit y reducirá el riesgo de confirmar sesgos. El piloto no valida por sí solo la disposición de pago de clientes externos.
 
 ### Acción
 
-1. Confirmar alcance y permisos operativos.
-2. Realizar discovery.
-3. Auditar presencia y proceso comercial.
-4. Construir una línea base viable.
-5. Elegir prioridades y definir métricas antes del cambio.
-6. Ejecutar solo intervenciones autorizadas.
-7. Evaluar resultados y actualizar la metodología.
+1. Registrar observaciones directas y recuerdos con su contexto cuando se conozca.
+2. Distinguir hechos, inferencias, hipótesis y datos no disponibles.
+3. Mapear el recorrido comercial conocido y señalar vacíos.
+4. Buscar evidencia que contradiga las hipótesis iniciales.
+5. Investigar externamente las preguntas que dependan de mercado o fuentes públicas.
+6. Preparar preguntas concretas para el padre, vinculadas a decisiones.
+7. Validar hechos operativos con él cuando sea necesario.
+8. Solo con autorización, considerar línea base e intervención.
 
-### Métricas
+### Métricas de método
 
-- **Proceso:** trazabilidad y completitud del diagnóstico.
-- **Comercial:** se seleccionará tras discovery y antes de intervenir, según disponibilidad y fiabilidad.
-- **Secundarias:** origen de consultas, tiempo de respuesta, reservas, visitas, conversión, seguimiento, horas y costos.
+- Afirmaciones sustantivas con tipo de evidencia identificado.
+- Hipótesis prioritarias con explicación alternativa o posible refutador.
+- Preguntas de validación conectadas a una decisión concreta.
+- Tiempo invertido y utilidad de cada etapa.
 
-No fijar metas numéricas antes de conocer la línea base. Seguidores, impresiones y clics no sustituyen resultados comerciales.
+Las métricas comerciales se seleccionarán después de comprender el proceso y confirmar que los datos pueden obtenerse de manera legítima y consistente.
 
 ### Resultado esperado
 
-Diagnóstico reproducible, línea base o explicación de por qué no puede construirse, intervención evaluable y aprendizajes para la metodología. No se presupone aumento de ingresos.
+Mapa comercial preliminar honesto, registro de evidencia, hipótesis contrastables y preguntas priorizadas. No se presupone que se encuentre un problema específico ni que aumenten los ingresos.
 
-### Resultado observado, aprendizaje y decisión
+### Resultado observado y aprendizaje
 
-Pendientes. No se ha iniciado el trabajo operativo ni registrado una intervención.
+Pendientes. No se ha iniciado la validación con el responsable ni una intervención.
 
-### Evidencia
+### Límites
 
-- `research/pilots/caiman-sc/README.md`
-- `strategy/positioning.md` y `strategy/offers.md`
-- `Dav-sol/el-nuevo-caiman-growth-vault`, especialmente `02-research/digital-presence-audit.md` y `02-research/source-registry.md`
-
-### Limitaciones
-
-Relación familiar, posible ausencia de pago, calidad y volumen de datos desconocidos, estacionalidad y factores externos. No inferir causalidad sin evidencia suficiente.
+Relación familiar, recuerdos retrospectivos, perspectiva parcial, datos disponibles desconocidos y ausencia de validación de pago externo. No afirmar causalidad sin evidencia suficiente.
 
 ### Próximo paso
 
-Acordar permisos y alcance; iniciar discovery. No modificar perfiles, invertir en publicidad ni publicar el caso sin autorización explícita.
+Completar el registro de observaciones y el mapa preliminar antes de iniciar una conversación formal o proponer cambios.
 
 ## Estados
 
@@ -99,31 +70,12 @@ Acordar permisos y alcance; iniciar discovery. No modificar perfiles, invertir e
 - `Cancelled` — cancelado antes de obtener evidencia suficiente.
 - `Inconclusive` — finalizado sin evidencia suficiente para concluir.
 
-## Plantilla de experimento
-
-Para experimentos que requieran mayor detalle, registrar:
-
-- Identificador, fechas, responsable, área y estado.
-- Hipótesis, contexto, predicción y acción.
-- Métrica principal/secundaria, periodo, población y criterio de éxito.
-- Resultado observado, aprendizaje y decisión.
-- Evidencia y limitaciones.
-- Próximo paso.
-
 ## Calidad de los experimentos
 
 Evitar cambiar varias variables sin registrarlo, definir el éxito después de observar resultados, confundir opinión con evidencia, ignorar muestras insuficientes o concluir causalidad a partir de correlación. El rigor debe ser proporcional al impacto de la decisión.
 
 ## Relación con decisiones
 
-```text
-Hipótesis → Experimento → Evidencia → Decisión → Implementación → Resultado
-```
-
-Los experimentos y decisiones deben referenciarse entre sí cuando sea útil.
-
-## Preparación para inteligencia artificial
-
-Los registros deben permitir recuperar experimentos, comparar resultados, identificar contradicciones y relacionar evidencia con decisiones. La IA ayuda a analizar la evidencia, pero no la sustituye.
+Los experimentos y decisiones deben referenciarse entre sí. La IA ayuda a analizar evidencia, pero no la sustituye.
 
 > Cada experimento debe producir aprendizaje, incluso cuando la hipótesis no se confirme.
