@@ -1,4 +1,4 @@
-# DEC-001 — Usar Caiman SC como piloto interno de Orvental
+# DEC-001 — Usar Caiman SC como caso de aprendizaje metodológico de Orvental
 
 **Fecha:** 2026-10-13  
 **Estado:** Accepted  
@@ -7,58 +7,58 @@
 
 ## Contexto
 
-Orvental necesita convertir su posicionamiento y su oferta de diagnóstico comercial en un método operativo demostrable. Centro Recreacional El Nuevo Caimán permite estudiar presencia digital, captación, atención, conversión, seguimiento y medición en un entorno real.
+Orvental necesita convertir su oferta hipotética de diagnóstico comercial en un método operativo demostrable. David conoce parte de la operación de Centro Recreacional El Nuevo Caimán por observación y por haber sustituido ocasionalmente a su padre. No vive con él ni tiene necesariamente una visión continua o completa de la operación.
 
-Existe una relación familiar con el negocio. Esto facilita el acceso, pero limita la independencia del caso y no permite inferir disposición de pago de clientes externos.
+Ese conocimiento es útil para formular hipótesis, pero también introduce sesgos de familiaridad, memoria retrospectiva y confirmación. El caso tiene una relación familiar y no debe presentarse como cliente externo validado.
 
 ## Pregunta
 
-¿Debe Orvental utilizar Caiman SC / Centro Recreacional El Nuevo Caimán como primer piloto para desarrollar y evaluar su Growth Audit?
+¿Debe Orvental utilizar Caiman SC para desarrollar el método Growth Audit, empezando por documentar el conocimiento previo y contrastarlo antes de proponer intervenciones?
 
-## Opciones consideradas
+## Opciones
 
 - **A — Esperar un cliente externo:** mayor independencia comercial, pero retrasa el aprendizaje metodológico.
-- **B — Piloto interno en negocio familiar:** acceso real y oportunidad de probar el método, con sesgo relacional y posible trabajo no remunerado.
-- **C — Investigación teórica solamente:** bajo riesgo operativo, pero no prueba el método en un proceso comercial real.
+- **B — Analizar primero el conocimiento operativo existente:** aprovecha contexto real sin requerir de inmediato una entrevista formal ni intervenir; exige controles explícitos contra el sesgo.
+- **C — Investigación teórica solamente:** menor riesgo operativo, pero desaprovecha el conocimiento de primera mano.
 
 ## Decisión
 
-Adoptar la opción B: preparar y documentar Caiman SC / Centro Recreacional El Nuevo Caimán como primer piloto interno, bajo `PILOT-001` y `EXP-002`.
+Adoptar la opción B. Documentar el caso como estudio operativo y experimento metodológico bajo `PILOT-001` y `EXP-002`.
 
-Esta decisión autoriza el marco documental y metodológico. **No autoriza automáticamente** cambios en activos públicos, campañas, tratamiento de datos personales ni publicación de resultados. Esas acciones requieren autorización explícita del responsable del negocio.
+La primera etapa utilizará observaciones y recuerdos de David, fuentes existentes e investigación de escritorio. Cada afirmación se etiquetará según su procedencia; se buscará evidencia contraria y se prepararán preguntas concretas para el responsable. No es necesario presentar inmediatamente el proyecto a su padre.
+
+Cuando la siguiente etapa requiera datos privados, confirmación operativa o cambios, se hablará con el responsable y se solicitará el permiso correspondiente. Esta decisión no autoriza cambios en activos públicos, campañas, precios, operación, tratamiento de datos personales ni publicación de resultados.
 
 ## Razones
 
-- Alinea el trabajo con el posicionamiento de Orvental: mejorar sistemas comerciales, no vender herramientas aisladas.
-- Permite convertir investigación en diagnóstico, decisiones, intervención y medición.
+- Aprovecha conocimiento operativo ya adquirido.
+- Permite practicar el método de investigación y diagnóstico con un caso real.
+- Reduce la fricción de iniciar con una entrevista formal sin hipótesis preparadas.
+- Hace explícito el sesgo y establece un proceso para mitigarlo.
 - Produce aprendizaje potencialmente reutilizable para el Growth Audit.
-- Aplica el principio de Orvental OS de aprender mediante experimentos reales.
 
 ## Evidencia disponible
 
-- `strategy/positioning.md`: posicionamiento de Orvental como consultora de crecimiento y sistemas comerciales.
-- `strategy/offers.md`: oferta de diagnóstico comercial aún hipotética.
-- `research/experiments.md`: protocolo institucional de experimentación.
-- `Dav-sol/el-nuevo-caiman-growth-vault`: vault separado del negocio con registro de fuentes y auditoría digital preliminar.
+- `strategy/positioning.md`: posicionamiento de Orvental.
+- `strategy/offers.md`: oferta de diagnóstico aún hipotética.
+- `research/experiments.md`: protocolo experimental.
+- `Dav-sol/el-nuevo-caiman-growth-vault`: vault separado del negocio y auditoría digital preliminar.
+- Experiencia operativa previa de David, pendiente de documentar en el registro de observaciones.
 
-Los datos del negocio aún no verificados están etiquetados como aportados por el responsable. No hay línea base ni resultados de intervención.
+Los datos aportados no equivalen a una línea base comercial. Aún no se ha validado el diagnóstico con el responsable ni se ha ejecutado intervención.
 
-## Consecuencias
+## Consecuencias y riesgos
 
-**Positivas:** entorno real de aprendizaje, método documentado, posibilidad de crear caso de estudio si hay autorización.
+**Positivas:** aprendizaje del método, uso del conocimiento existente, hipótesis mejor preparadas.
 
-**Trade-offs:** posible trabajo no remunerado, sesgo familiar, volumen de datos insuficiente y dificultad para atribuir resultados.
+**Trade-offs:** sesgo familiar, recuerdos incompletos, perspectiva parcial, posible trabajo no remunerado y ausencia inicial de validación de disposición de pago.
 
-**Riesgos:** presentarlo como cliente externo o caso de éxito prematuramente; afirmar causalidad sin evidencia; exponer información; mezclarlo con Centro Recreativo La Caimanera.
+**Riesgos:** confirmar ideas previas, presentar inferencias como hechos, afirmar causalidad sin datos, exponer información o confundir el negocio con Centro Recreativo La Caimanera.
+
+## Criterio de revisión
+
+Revisar después de documentar observaciones y preparar preguntas de validación, o antes si la evidencia contradice las hipótesis iniciales.
 
 ## Resultado
 
-Pendiente. Evaluar tras discovery, línea base y primera intervención aprobada.
-
-## Revisión
-
-Revisar después de la primera evaluación o antes si el responsable no autoriza el alcance, los datos no están disponibles o el costo de oportunidad supera el aprendizaje esperado.
-
-## Decisiones relacionadas
-
-Ninguna por ahora.
+Pendiente. Esta decisión establece el enfoque de aprendizaje; no afirma resultados comerciales.
